@@ -1,0 +1,40 @@
+@use "sass:map";
+
+.container{
+    flex:content;
+    display: flexbox;
+
+    h1{
+        margin-left: 50px;
+    }
+}
+
+.tables{
+    border:1px solid black;
+    border: 20px;
+    max-width: 1170px;
+    width: 100%;
+    margin-inline-start: 150px ;
+    margin-top: 35px;
+
+    th{
+        border-bottom: 1px solid black;
+    }
+
+    tbody{
+        tr{
+            td{
+                text-align: center;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}
+
+.pagination{
+    margin-left: 480px;
+}
+
+.button{
+    margin-left: 20px;
+}
